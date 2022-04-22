@@ -1,4 +1,184 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+body{
+    background-color: #FFF9F9;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+/* HEADER */
+
+.header {
+    margin: 30px;
+    display: flex;
+    flex-direction:column;
+    justify-content: flex-start;
+    }
+    
+.barra{
+    display:flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    position: relative;
+    }
+    
+.boto_coet {
+    font-family: 'Oswald', sans-serif;
+    background-color:#FD9738;
+    color: aliceblue;
+    border-radius: 5vw;
+    border-bottom-left-radius:0%;
+    height: 40px;
+    width: 123px;
+    font-size: large;
+    border:none;
+    }
+    
+.coet_img {
+    display:flex;
+    justify-content: space-around;      
+    height: 2em;
+    width: 1em;
+    margin: 0.5em;
+    }
+    
+.text_baix1 {
+    margin-top: 15px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 2.5em;
+    color:black;
+    display: flex;
+    flex-direction: column;
+    }
+    
+.boto_pollastre {
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content:space-around;   
+    font-family: 'Roboto', sans-serif;
+    background-color:#FD9738;
+    color: aliceblue;
+    border-radius: 5vw;
+    border-bottom-left-radius:0%;
+    height: 114px;
+    width: 313px;
+    border-radius: 1.5em;
+    border:none;
+    } 
+        
+.pollastre_img {
+    height: 134px;
+    width: 114px;
+    margin: 0.5em;
+    }
+    
+.texto_pollastre {
+    flex-direction: column;
+    display:flex;
+    align-items: flex-end;
+    }
+    
+.descompte {
+    font-size:medium;
+    margin: 0% 0% 2% 0%;
+    }
+    
+.informacio {
+    font-size: small;
+    color: bisque;
+    margin:2% 0% 0% 0%;
+    }
+
+
+/* COS PRINCIPAL */
+
+.main{   /* box central */
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+        /* box joker */ border: 5px solid cyan; 
+}
+
+.pizza-box{
+    width: 150px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.pizza-image-frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border-radius: 50%;
+    background-color: aqua ;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    top: -50px;
+    z-index: 1;
+}
+
+.pizza-image{
+    width: 100%;
+    object-fit: contain; 
+}
+
+.carta{
+    background: #E9E8EC;
+    border-radius: 35px 35px 30px 30px;
+    width: 150px;
+    height: 125px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+.pizza-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-content: center;
+    padding-left: 10%;
+    text-align: justify;
+    line-height: 5%;
+    font-size: 70%;
+}
+
+.nompizza{
+    font-family: 'roboto';
+    font-weight: 900;
+    font-size: larger;
+}
+
+.addbutton{
+    width: 30px;
+    height: 30px;
+    font-size: larger;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.6em;
+    background: #FDC138;
+    border: none;
+    border-radius: 12px;
+    position: absolute;
+    bottom:10px;
+    right: 10px;
+}
+
 
 
 .footer{
@@ -38,4 +218,21 @@
     background-color: transparent;
     border: solid 3px black;
     overflow:hidden;
+}
+@media screen and (min-width: 480px){
+    body{
+        background-color: antiquewhite;
+    }
+}
+
+@media screen and (min-width: 767px){
+    body{
+        background-color: bisque;
+    }
+}
+
+@media screen and (min-width: 950px){
+    body{
+        background-color: burlywood;
+    }
 }
