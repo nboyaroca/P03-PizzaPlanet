@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+body{
+    background-color: #FFF9F9;
+    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    margin: 0px;
+    display: flex;
+    justify-content: center;
+}
+
+.main{   /* box central */
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+        /* box joker */ border: 5px solid cyan; 
+}
+
+.pizza-box{
+    width: 150px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+}
+
+.pizza-image-frame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    border-radius: 50%;
+    background-color: aqua ;
+    position: absolute;
+    object-fit: cover;
+    object-position: center;
+    top: -50px;
+    z-index: 1;
+}
+
+.pizza-image{
+    width: 100%;
+    object-fit: contain; 
+}
+
+.carta{
+    background: #E9E8EC;
+    border-radius: 35px 35px 30px 30px;
+    width: 150px;
+    height: 125px;
+    position: relative;
+    display: flex;
+    align-items: flex-end;
+}
+
+.pizza-text{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+    align-content: center;
+    padding-left: 10%;
+    text-align: justify;
+    line-height: 5%;
+    font-size: 70%;
+}
+
+.nompizza{
+    font-family: 'roboto';
+    font-weight: 900;
+    font-size: larger;
+}
+
+.addbutton{
+    width: 30px;
+    height: 30px;
+    font-size: larger;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    line-height: 1.6em;
+    background: #FDC138;
+    border: none;
+    border-radius: 12px;
+    position: absolute;
+    bottom:10px;
+    right: 10px;
+}
+
+@media screen and (min-width: 480px){
+    body{
+        background-color: antiquewhite;
+    }
+}
+
+@media screen and (min-width: 767px){
+    body{
+        background-color: bisque;
+    }
+}
+
+@media screen and (min-width: 950px){
+    body{
+        background-color: burlywood;
+    }
+}
