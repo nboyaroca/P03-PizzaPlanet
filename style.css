@@ -20,7 +20,7 @@ body{
     flex-direction:column;
     justify-content: flex-start;
     }
-    
+ 
 .barra{
     display:flex;
     flex-direction: row;
