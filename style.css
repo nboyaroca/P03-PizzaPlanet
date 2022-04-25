@@ -179,18 +179,17 @@ body{
     right: 10px;
 }
 
-
+/* PEU DE PÀGINA */
 
 .footer{
-    
     height: 88px;
     background-color: blueviolet;
     position: relative;
     display: flex;
     justify-content: center;
-    align-items: center;
-       
+    align-items: center;    
 }
+
 .buy-button{
     width: 60px;
     height: 60px;
@@ -199,16 +198,14 @@ body{
     border: 1px solid coral;
     display: flex;
     justify-content: center;
-    align-items: center;
-   
+    align-items: center;   
 }
 
 .shopping-button{
     width: 80px;
-    height: 80px;
-
-               
+    height: 80px;               
 }
+
 .counter{
     width: 30px;
     height: 30px;
@@ -219,6 +216,7 @@ body{
     border: solid 3px black;
     overflow:hidden;
 }
+
 @media screen and (min-width: 480px){
     body{
         background-color: antiquewhite;
