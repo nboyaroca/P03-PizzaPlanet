@@ -7,7 +7,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PizzaPlanet</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="./styles/style.css">
     <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
 
 </head>
@@ -31,25 +31,10 @@
         </button>
     </header>
 
-    <main class="main">         <!-- MENUS DE LES PIZZES -->
+    <main id="carta" class="main">         <!-- MENUS DE LES PIZZES -->
                 
                     <!-- TIPUS DE PIZZA A ESCOLLIR -->
-
-        <div class="pizza-box" id="pizza">
-            <div class="pizza-image-frame"> <!-- marc de la foto -->
-                <img class="pizza-image" src="./images/Pizza-greek.png" alt="Pizza Sicilian">
-            </div>
-            <div class="carta"> <!-- informació de la pizza -->
-                <div class="pizza-text">
-                    <h4 class="namepizza"></h4>
-                    <p class="ingredient">Tomato</p>
-                    <h3 class="price">$7.90</h3>
-                </div>
-                <button class="addbutton">+</button> <!-- per afegir a la comanda -->
-            </div>
-            
-        </div>
-       
+               
     </main>
 
     <footer class="footer">      <!-- PEU PER COMPRAR -->
@@ -60,7 +45,7 @@
         <div class="counter"></div>
     </footer>
 
-    <script src="./index.js"></script>
+    <script src="./scripts/index.js" type="module"></script>
 </body>
       
 </html>
