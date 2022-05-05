@@ -1,5 +1,7 @@
 # P03-PizzaPlanet
 
+[pages: https://nboyaroca.github.io/P03-PizzaPlanet/]
+
 Projecte app pizzeria
 
 1r. Mockup using figma
