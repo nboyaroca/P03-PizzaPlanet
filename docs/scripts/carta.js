@@ -35,16 +35,16 @@ export const carta = {
 
         for (const pizza of this.menu) {
             html += `<div class="pizza-box" id="pizza">
-                <div class="pizza-image-frame"> <!-- marc de la foto -->
+                <div class="pizza-image-frame">
                     <img class="pizza-image" src="./images/Pizza-greek.png" alt="Pizza Sicilian">
                 </div>
-                <div class="carta"> <!-- informació de la pizza -->
+                <div class="carta">
                     <div class="pizza-text">
-                        <h4 class="namepizza"></h4>
+                        <h4 class="namepizza">${pizza.name}</h4>
                         <p class="ingredient">${pizza.ingredient}</p>
                         <h3 class="price">$${pizza.price}</h3>
                     </div>
-                    <button class="addbutton">+</button> <!-- per afegir a la comanda -->
+                    <button class="addbutton">+</button>
                 </div>
                 
             </div>`;
