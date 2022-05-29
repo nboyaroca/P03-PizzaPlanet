@@ -43,7 +43,7 @@ Prepare the checkout page and the functionality of the adding buttons.
 
 &nbsp;
 
-### FUNCTIONAL ITEMS 🔘
+#### FUNCTIONAL ITEMS 🔘
 >Mobil first (reponsive design).
 
 >Anatomical design of components.
